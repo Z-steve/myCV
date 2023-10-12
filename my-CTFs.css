@@ -1,0 +1,88 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  text-shadow: 2px 2px 8px rgba(23,223,0,1);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  margin: 371px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 100;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 25px auto 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  font-weight: 100;
+  padding: 0;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
+
+.u-section-1 .u-text-2,
+.u-section-1 .u-text-2:before,
+.u-section-1 .u-text-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-text-2.u-text-2.u-text-2:hover {
+  color: #f6f6f6 !important;
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-text-2 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-text-2.u-text-2.u-text-2.hover {
+  color: #f6f6f6 !important;
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-text-2 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-text-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-text-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 676px;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 179px auto 60px;
+}
