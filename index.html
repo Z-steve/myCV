@@ -1,316 +1,438 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="it"><head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Z-Steve CV</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Z-Steve-CV.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <link rel="icon" href="images/favicon1.png">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <title>Hacker Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
     
-   
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Site1"
-}</script>
-    <meta name="theme-color" content="#000c63">
-    <meta property="og:title" content="Z-Steve CV">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Z-Steve-CV.html" data-home-page-title="Z-Steve CV" data-path-to-root="./" class="u-backlink-hidden u-body u-overlap u-overlap-contrast u-overlap-transparent u-xl-mode" data-lang="it"> 
-    <section class="u-clearfix u-shading u-uploaded-video u-video u-video-cover u-section-1" id="sec-5cae">
-      <div class="u-background-video u-expanded" style="">
-        <div class="embed-responsive">
-          <video class="embed-responsive-item" data-autoplay="1" loop="" muted="1" autoplay="autoplay" playsinline="">
-            <source src="files/sfondobinary.mp4" type="video/mp4">
-            <p>Your browser does not support HTML5 video.</p>
-          </video>
+    <!-- Shutdown Overlay -->
+    <div id="shutdown-overlay" class="shutdown-overlay hidden">
+        <div class="shutdown-content">
+            <div class="shutdown-message">Shutting down system...</div>
+            <div class="shutdown-progress"></div>
+            <div class="shutdown-final-message">System halted. You can now close this window or refresh the page to start over.</div>
         </div>
-        <div class="u-video-shading" style="background-image: linear-gradient(0deg, rgba(0,12,99,0.35), rgba(0,12,99,0.35));"></div>
-      </div>
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="custom-expanded u-absolute-hcenter-xs u-custom-color-4 u-shape u-shape-rectangle u-shape-1"></div>
-        <div class="u-align-left u-container-style u-custom-color-7 u-expanded-width u-group u-opacity u-opacity-75 u-similar-fill u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="250">
-          <div class="u-container-layout u-container-layout-1">
-            <img class="custom-expanded u-image u-image-1" src="images/profilo.JPG" data-image-width="1024" data-image-height="1024" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="1000">
-            <div class="u-border-1 u-border-custom-color-2 u-shape u-shape-bottom u-shape-right u-shape-2" data-animation-name="customAnimationIn" data-animation-duration="1550"></div>
-            <h1 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1550" data-animation-delay="700">Hello!<br>I'am Stef​ano Mavilio
-            </h1>
-            <h5 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1550" data-animation-direction="" data-animation-delay="700"> Cyber Security Student, Developer &amp; Web Desi​gner</h5>
-            <a href="Z-Steve-CV.html#sec-72a7" class="u-border-2 u-border-hover-custom-color-1 u-border-white u-btn u-button-style u-custom-font u-heading-font u-hover-feature u-hover-grey-5 u-none u-btn-1" data-animation-name="bounceIn" data-animation-duration="1250" data-animation-delay="1500" data-animation-direction="">read more</a>
-            <div class="u-border-1 u-border-custom-color-2 u-shape u-shape-left u-shape-top u-shape-3" data-animation-name="customAnimationIn" data-animation-duration="1550" data-animation-delay="0"></div>
-            <div class="u-hover-feature u-social-icons u-spacing-44 u-social-icons-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-              <a class="u-social-url" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/stefano-mavilio-2b307a240"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-text-custom-color-5 u-icon-1"><img src="images/3536505-bdc053bc.png" alt=""></span>
-              </a>
-              <a class="u-social-url" title="GitHub" target="_blank" href="https://github.com/Z-steve"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-text-custom-color-5 u-icon-2"><img src="images/3291695-76c91647.png" alt=""></span>
-              </a>
-              <a class="u-social-url" title="Email" target="_blank" href="mailto:mavilio.stefano@gmail.com"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-text-custom-color-5 u-icon-3"><img src="images/542689-6837a58a.png" alt=""></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-    </section>
-    <section class="u-clearfix u-custom-color-1 u-shading u-uploaded-video u-section-2" id="sec-72a7">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-align-center u-container-style u-expanded-width-xs u-group u-similar-fill u-group-1">
-          <div class="u-container-layout u-padding-12 u-valign-middle u-container-layout-1">
-            <h2 class="u-text u-text-1">Interests and skills</h2>
-            <p class="u-text u-text-2">That's me. ​These are my interests and passions, what I can do and what I like to do!</p>
-          </div>
-        </div>
-        <div class="custom-expanded data-layout-selected u-clearfix u-disable-padding u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-gutter-14 u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-col">
-              <div class="u-size-60">
-                <div class="u-layout-row">
-                  <div class="u-container-style u-hover-feature u-layout-cell u-left-cell u-shape-rectangle u-size-20 u-white u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="" data-href="my-CTFs.html">
-                    <div class="u-container-layout u-padding-6 u-container-layout-2"><span class="u-file-icon u-icon u-icon-1"><img src="images/2273170.png" alt=""></span>
-                      <h5 class="u-align-center u-text u-text-3">Cyber Security</h5>
-                      <p class="u-align-center u-text u-text-grey-dark-1 u-text-4">Ethical Hacking, Penetration Testing, Network Security, Systems Security, CTF hacking challenges, Secure Code</p>
-                    </div>
-                  </div>
-                  <div class="u-container-style u-hover-feature u-layout-cell u-shape-rectangle u-size-20 u-white u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="" data-animation-delay="250" data-href="https://github.com/Z-steve" data-target="_blank">
-                    <div class="u-container-layout u-padding-6 u-container-layout-3"><span class="u-file-icon u-icon u-icon-2"><img src="images/1006363.png" alt=""></span>
-                      <h5 class="u-align-center u-text u-text-5">Development</h5>
-                      <p class="u-align-center u-text u-text-grey-dark-1 u-text-6">C, C++, Python, Java, Javascript</p>
-                    </div>
-                  </div>
-                  <div class="u-container-style u-hover-feature u-layout-cell u-right-cell u-shape-rectangle u-size-20 u-white u-layout-cell-3" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="" data-animation-delay="500" data-href="my-Websites.html">
-                    <div class="u-container-layout u-padding-6 u-container-layout-4"><span class="u-file-icon u-icon u-icon-3"><img src="images/1055666.png" alt=""></span>
-                      <h5 class="u-align-center u-text u-text-7">Web Design</h5>
-                      <p class="u-align-center u-text u-text-grey-dark-1 u-text-8">HTML5, CSS3, Bootstrap, Page design</p>
-                    </div>
-                  </div>
+    </div>
+    <!-- Login Screen -->
+    <div id="login-screen" class="login-screen">
+        <div class="login-container">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-title">System Login</span>
                 </div>
-              </div>
+                <div class="terminal-content">
+                    <div class="login-message">Initializing system...</div>
+                    <div class="login-progress"></div>
+                    <div class="fullscreen-suggestion">Press F11 for fullscreen experience</div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      
-      
-      
-    </section>
-    <section class="u-clearfix u-image u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-section-3" id="sec-6afc" data-image-width="1000" data-image-height="667">
-      <div class="u-absolute-hcenter u-align-left u-custom-color-7 u-expanded u-opacity u-opacity-50 u-shape u-shape-rectangle u-shape-1"></div>
-      <div class="u-container-style u-group u-similar-fill u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <h2 class="custom-expanded u-align-center u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-heading-font u-text u-text-custom-color-2 u-text-1">My Background</h2>
-          <p class="u-align-left u-expanded-width u-text u-text-white u-text-2"> I graduated from University of Milan with a three-year Bachelor’s degree in System and Network Security, where I gained a solid foundation in computer science and cybersecurity.<br>
-            <br>In my leisure time, I passionately engage in the development of mobile applications, websites, and games, demonstrating my ability to apply the theory learned to practical domains.<br>
-            <br>I am passionate about cybersecurity, actively participating in CTF hacking challenges and performing penetration testing. This has allowed me to acquire advanced skills in computer system protection and vulnerability detection.<br>
-            <br>My thirst for knowledge constantly drives me to learn and apply new technologies and strategies to enhance cybersecurity.<br>
-            <br>Furthermore, my passion for automobiles, particularly Italian icons like Ferrari and Alfa Romeo, showcases my interest in innovation, design, and perfection—qualities that I bring to every endeavor.<br>
-            <br>I am always on the lookout for opportunities to apply my computer skills and contribute to technological advancement.<br>
-          </p>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content">
+        <!-- Linux Toolbar -->
+        <div class="linux-toolbar">
+            <div class="toolbar-left">
+                <div class="start-menu">
+                    <i class="fab fa-linux"></i>
+                </div>
+                <!-- Hamburger menu for mobile -->
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="quick-access">
+                    <div class="toolbar-icon" title="Terminal">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="toolbar-icon" title="Files">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="toolbar-right">
+                <div class="system-tray">
+                    <div class="tray-icon" title="CPU">
+                        <i class="fas fa-microchip"></i>
+                        <span id="toolbar-cpu">0%</span>
+                    </div>
+                    <div class="tray-icon" title="RAM">
+                        <i class="fas fa-memory"></i>
+                        <span id="toolbar-ram">0%</span>
+                    </div>
+                    <div class="tray-icon" title="Network">
+                        <i class="fas fa-network-wired"></i>
+                        <span id="toolbar-net">0%</span>
+                    </div>
+                </div>
+                <div class="clock" id="toolbar-clock">
+                    <i class="far fa-clock"></i>
+                    <span>00:00:00</span>
+                </div>
+                <div class="power-button" title="Power">
+                    <i class="fas fa-power-off"></i>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-valign-middle-sm u-white u-section-4" id="carousel_371d">
-      <div class="u-absolute-hcenter u-align-left u-custom-color-1 u-expanded u-shape u-shape-1"></div>
-      
-      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-container-style u-group u-similar-fill u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <h2 class="u-expanded-width u-heading-font u-text u-text-1">Cumbo Games</h2>
-          <p class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-2">I'm the CEO of Cumbo Games.<br>
-            <br> Cumbo Games is a small personal arcade game development company.<br>
-            <br> These video games are for android mobile devices.<br>
-            <br>I hope one day, I'll have the time to develop some big video games projects for computer!
-          </p>
+
+        <!-- Desktop Shortcuts -->
+        <div class="desktop-shortcuts">
+            <div class="desktop-shortcut-item" id="terminal-shortcut">
+                <i class="fas fa-terminal"></i>
+                <span>Terminal</span>
+            </div>
+            <div class="desktop-shortcut-item" id="files-shortcut">
+                <i class="fas fa-folder"></i>
+                <span>Files</span>
+            </div>
+            <div class="desktop-shortcut-item" id="nmap-shortcut">
+                <i class="fas fa-network-wired"></i>
+                <span>Nmap</span>
+            </div>
+            <div class="desktop-shortcut-item" id="metasploit-shortcut">
+                <i class="fas fa-bug"></i>
+                <span>Metasploit</span>
+            </div>
+            <div class="desktop-shortcut-item" id="aircrack-shortcut">
+                <i class="fas fa-wifi"></i>
+                <span>Aircrack</span>
+            </div>
+            <div class="desktop-shortcut-item" id="hydra-shortcut">
+                <i class="fas fa-key"></i>
+                <span>Hydra</span>
+            </div>
         </div>
-      </div>
-      <img src="images/logocumbo2.png" alt="" class="u-hover-feature u-image u-image-default u-image-1" data-image-width="1154" data-image-height="1473" data-href="https://play.google.com/store/apps/dev?id=7450033374728311155" data-target="_blank">
-    </section>
-    <section class="u-clearfix u-custom-color-1 u-section-5" id="sec-6555">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
-        <div class="u-align-center u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-similar-fill u-group-1">
-          <div class="u-container-layout u-padding-12 u-valign-middle-lg u-valign-middle-md u-valign-middle-xl">
-            <h2 class="u-text u-text-1">Cumbo Games projects</h2>
-            <p class="u-text u-text-2">These are some of my projects... Hope you enj<span style="font-size: 1rem;"></span>oy it!
-            </p>
-          </div>
+
+        <!-- Portfolio Window -->
+        <div id="portfolio-window" class="desktop-window">
+            <div class="window-header">
+                <span class="window-title">Portfolio</span>
+                <span class="window-close" id="main-window-close"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="desktop">
+                <!-- Profile Section -->
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img id="profile-image" src="images/profile.JPG" alt="Profile Image">
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="hacker-text">Stefano Walter Mavilio</h1>
+                        <div class="social-links">
+                            <div class="social-icons">
+                                <a href="https://github.com/Z-steve/" target="_blank" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/stefano-mavilio-2b307a240/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="mailto:mavilio.stefano@gmail.com" class="social-icon" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="https://youtube.com/@ZsteveAstra" target="_blank" class="social-icon" title="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                            <div class="scroll-indicator">↓ Scroll ↓</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Welcome Section -->
+                <div class="content-section">
+                    <h2 class="section-title">Welcome to my digital lair</h2>
+                    <p class="section-text">
+                        Step into my cyber realm where security meets innovation. Here you'll find a fusion of cybersecurity expertise, software development skills, and a passion for technological advancement.
+                    </p>
+                </div>
+
+                <!-- About Section -->
+                <div class="content-section">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-text">
+                        I graduated from University of Milan with a three-year Bachelor's degree in System and Network Security, where I gained a solid foundation in computer science and cybersecurity.
+
+                        In my leisure time, I passionately engage in the development of mobile applications, websites, and games, demonstrating my ability to apply the theory learned to practical domains.
+
+                        I am passionate about cybersecurity, actively participating in CTF hacking challenges and performing penetration testing. This has allowed me to acquire advanced skills in computer system protection and vulnerability detection.
+
+                        My thirst for knowledge constantly drives me to learn and apply new technologies and strategies to enhance cybersecurity.
+
+                        Furthermore, my passion for automobiles, particularly Italian icons like Ferrari and Alfa Romeo, showcases my interest in innovation, design, and perfection—qualities that I bring to every endeavor.
+
+                        I am always on the lookout for opportunities to apply my computer skills and contribute to technological advancement.
+                    </p>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="content-section">
+                    <h2 class="section-title">Interests and skills</h2>
+                    <div class="skills-grid">
+                        <button class="skill-button" data-skill="web-dev">
+                            <i class="fas fa-code"></i>
+                            Web Development
+                        </button>
+                        <button class="skill-button" data-skill="cyber">
+                            <i class="fas fa-shield-alt"></i>
+                            Cybersecurity
+                        </button>
+                        <button class="skill-button" data-skill="pentest">
+                            <i class="fas fa-bug"></i>
+                            Penetration Testing
+                        </button>
+                        <button class="skill-button" data-skill="os">
+                            <i class="fas fa-desktop"></i>
+                            Operating Systems
+                        </button>
+                        <button class="skill-button" data-skill="prog">
+                            <i class="fas fa-code"></i>
+                            Programming Languages
+                        </button>
+                        <button class="skill-button" data-skill="websec">
+                            <i class="fas fa-lock"></i>
+                            Web Application Security
+                        </button>
+                        <button class="skill-button" data-skill="netsec">
+                            <i class="fas fa-network-wired"></i>
+                            Network Security
+                        </button>
+                        <button class="skill-button" data-skill="mobile">
+                            <i class="fas fa-mobile-alt"></i>
+                            Mobile Development
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Projects Section -->
+                <div class="content-section">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="projects-grid">
+                        <!-- Project cards will be added here -->
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-button">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Projects
+                        </button>
+                        <button class="project-button">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </button>
+                        
+                    </div>
+                </div>
+
+                <!-- Library Section -->
+                <div class="content-section">
+                    <h2 class="section-title">My Library</h2>
+                    <div class="library-content">
+                        <div class="library-section">
+                            <h3 class="library-subtitle">Video Courses</h3>
+                            <div class="carousel-container">
+                                <button class="carousel-button prev" aria-label="Previous">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <div class="carousel">
+                                    <div class="carousel-track">
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/ethicalhackingfromscratch.jpg" alt="Ethical Hacking Course">
+                                                <div class="course-info">
+                                                    <h4>Learn Ethical Hacking from Scratch</h4>
+                                                    <p>This Ethical Hacking videocourse is designed for beginners, teaching practical hacking techniques and security measures. It covers various hacking fields, including network hacking, gaining access, post-exploitation, and website hacking, providing hands-on skills and understanding of vulnerabilities and defenses.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/pythonhacking.jpg" alt="Python Hacking Course">
+                                                <div class="course-info">
+                                                    <h4>Learn Python & Ethical Hacking from Scratch</h4>
+                                                    <p>This videocourse covers Python programming and ethical hacking for beginners, guiding you from basic concepts to writing practical hacking programs while also teaching general programming skills. By the end, you'll have the ability to create various applications using Python, all with hands-on examples and a focus on real-world hacking techniques.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/networkhackingcontinued.jpg" alt="Network Hacking Course">
+                                                <div class="course-info">
+                                                    <h4>Network Hacking Continued - Intermediate to Advanced</h4>
+                                                    <p>This advanced network hacking videocourse is designed for those with prior knowledge in network hacking. It provides practical, in-depth training on pre-connection attacks, gaining access to various network configurations and encryptions, and post-connection attacks, all with a focus on understanding the theory and developing attack skills.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/webhacking.jpg" alt="Web Hacking Course">
+                                                <div class="course-info">
+                                                    <h4>Website Hacking Penetration Testing & Bug Bounty Hunting</h4>
+                                                    <p>This website penetration testing videocourse is designed for beginners, providing practical training in discovering and exploiting common web application vulnerabilities. Covering information gathering, vulnerability discovery, exploitation, and post-exploitation, it equips students to hack websites like professionals and secure them effectively.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/linuxvideocourse.jpg" alt="Linux Course">
+                                                <div class="course-info">
+                                                    <h4>Complete Linux Training Course to Get Your Dream IT Job 2023</h4>
+                                                    <p>This Linux videocourse is ideal for beginners looking to start a career in Linux. Covering installation, configuration, administration, shell scripting, and more, it also includes resume and interview workshops, preparing students for Linux-related job opportunities and certifications.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/ctf.jpg" alt="CTF Course">
+                                                <div class="course-info">
+                                                    <h4>Hacker Game - Sfide di Hacking per Aspiranti Hacker (IT)</h4>
+                                                    <p>This CTF videocourse guides you step by step through hacking challenges, providing both theory and hands-on practice in gaining access to virtual Windows and Linux machines. It is suitable for anyone in the IT field, aspiring ethical hackers, or individuals interested in hacking with some prior knowledge.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="course-card">
+                                                <img src="images/courses/algorithms_data_structures.jpg" alt="Algorithms and Data Structures">
+                                                <div class="course-info">
+                                                    <h4>Mastering Algorithms & Data Structures using C & C++</h4>
+                                                    <p>This extensive videocourse thoroughly covers data structures, enhancing problem-solving skills through whiteboard explanations and practical coding, suitable for all levels.
+                                                        I loved how the instructor explained even the most challenging topics in a simple and straightforward manner, using numerous examples.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <button class="carousel-button next" aria-label="Next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="library-section">
+                            <h3 class="library-subtitle">Books</h3>
+                            <div class="carousel-container">
+                                <button class="carousel-button prev" aria-label="Previous">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <div class="carousel">
+                                    <div class="carousel-track">
+                                        <div class="carousel-item">
+                                            <div class="book-card">
+                                                <img src="images/books/howlinuxwork.jpg" alt="How Linux Works">
+                                                <div class="book-info">
+                                                    <h4>How Linux Works</h4>
+                                                    <p>I just enjoyed it from the start! I really recommend it for someone who wants to deeply understand how Linux works at a low level. It's a good starting point! Obviously, you should be familiar with all the basics of Operating Systems.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="book-card">
+                                                <img src="images/books/computernetworks.jpg" alt="Computer Networks">
+                                                <div class="book-info">
+                                                    <h4>Computer Networks</h4>
+                                                    <p>"Computer Networks (6th Edition)" by Andrew Tanenbaum and David Wetherall provides a comprehensive introduction to networking concepts, protocols, and technologies. It covers both theoretical foundations and practical applications, with updated content on modern networking challenges.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="book-card">
+                                                <img src="images/books/nmap.jpg" alt="Nmap Network Scanning">
+                                                <div class="book-info">
+                                                    <h4>Nmap Network Scanning</h4>
+                                                    <p>"Nmap Network Scanning" by Gordon "Fyodor" Lyon is a detailed guide to the Nmap security scanner, covering its use for network discovery, security auditing, and vulnerability detection. The book includes practical examples, advanced techniques, and insights from the tool's creator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-button next" aria-label="Next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="content-section">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="contact-content">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mavilio.stefano@gmail.com">mavilio.stefano@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/stefano-mavilio-2b307a240/" target="_blank">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="u-clearfix u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-gutter-14 u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-size-20 u-image-1" data-image-width="640" data-image-height="1136" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-href="https://apkpure.com/sea-up/sea.up.cumbo.games" data-target="_blank">
-                <div class="u-container-layout u-container-layout-2"></div>
-              </div>
-              <div class="u-align-left u-container-style u-image u-layout-cell u-size-20 u-image-2" data-image-width="810" data-image-height="1440" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-animation-delay="250" data-href="https://play.google.com/store/apps/details?id=sea.up.cumbo.games" data-target="_blank">
-                <div class="u-container-layout u-container-layout-3"></div>
-              </div>
-              <div class="u-align-left u-container-style u-image u-layout-cell u-size-20 u-image-3" data-image-width="752" data-image-height="1440" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-animation-delay="500" data-href="https://apkpure.com/nl/the-backdrop-game/thebackdrop.game.cumbo.games" data-target="_blank">
-                <div class="u-container-layout u-container-layout-4"></div>
-              </div>
-            </div>
-          </div>
+
+        <!-- Portfolio Shortcut (Bottom Left) -->
+        <div id="portfolio-shortcut-bottom" class="hidden">
+            <i class="fas fa-user"></i>
+            <span>Portfolio</span>
         </div>
-        <div class="u-clearfix u-gutter-14 u-layout-wrap u-layout-wrap-2">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-image u-layout-cell u-size-20 u-image-4" data-image-width="869" data-image-height="1440" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-animation-delay="750" data-href="https://apkpure.com/slit-ring/slit.ring.cumbo.games/amp" data-target="_blank">
-                <div class="u-container-layout u-container-layout-5"></div>
-              </div>
-              <div class="u-align-left u-container-style u-image u-layout-cell u-size-20 u-image-5" data-image-width="752" data-image-height="1440" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-animation-delay="1000" data-href="https://apkpure.com/it/spike-line/spike.line.cumbo.games" data-target="_blank">
-                <div class="u-container-layout u-container-layout-6"></div>
-              </div>
-              <div class="u-container-style u-image u-layout-cell u-size-20 u-image-6" data-image-width="750" data-image-height="1334" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="X" data-animation-delay="1250" data-href="https://play.google.com/store/apps/details?id=statt.attind.cumbo.games" data-target="_blank">
-                <div class="u-container-layout u-container-layout-7"></div>
-              </div>
-            </div>
-          </div>
+    </div>
+
+    <!-- Skill Info Windows -->
+    <div id="skill-windows" class="skill-windows">
+        <!-- Windows will be dynamically added here -->
+    </div>
+
+    <!-- Terminal Popup Window -->
+    <div id="terminal-popup" class="terminal-popup hidden">
+        <div class="terminal-header">
+            <span class="terminal-title">Terminal</span>
+            <span class="terminal-close"><i class="fas fa-times"></i></span>
         </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-custom-color-1 u-section-6" id="sec-3065">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://play.google.com/store/apps/dev?id=7450033374728311155" class="u-border-1 u-custom u-hover-feature u-link u-text-black u-link-1" target="_blank">see more apps</a>
-      </div>
-      
-    </section>
-    <section class="u-clearfix u-custom-color-4 u-section-7" id="carousel_998d">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-align-center u-container-style u-group u-similar-fill u-group-1">
-          <div class="u-container-layout u-padding-12 u-valign-middle">
-            <h2 class="u-text u-text-1">My Github Page</h2>
-            <p class="u-text u-text-2">These are some projects in different programming languages... (ethical hacking tools, websites, etc...)</p>
-          </div>
+        <div class="terminal-content">
+            <div class="command-line">
+                <span class="prompt">$</span><span class="input"></span><span class="cursor">_</span>
+            </div>
         </div>
-        <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-hover-feature u-image u-image-default u-image-1" src="images/githubpage1.png" data-image-width="1891" data-image-height="902" alt="" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="" data-href="https://github.com/Z-steve" data-target="_blank">
-        <a href="https://github.com/Z-steve" class="u-border-1 u-custom u-hover-feature u-link u-text-custom-color-7 u-link-1" data-animation-name="" data-animation-duration="0" data-animation-direction="" target="_blank">Navigate to my Github Page</a>
-      </div>
-      
-      
-    </section>
-    <section class="u-clearfix u-custom-color-1 u-section-8" id="carousel_fa83">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-align-center u-container-style u-group u-similar-fill u-group-1">
-          <div class="u-container-layout u-padding-12 u-valign-middle">
-            <h2 class="u-text u-text-1">My Youtube Channel</h2>
-            <p class="u-text u-text-2"> These are some educational videos I made about ethical hacking and cyber security</p>
-          </div>
+    </div>
+
+    <!-- Mobile Shortcuts Menu (moved to end of body) -->
+    <div id="mobile-shortcuts-menu" class="mobile-shortcuts-menu">
+        <div class="mobile-shortcuts-content">
+            <div class="mobile-shortcut-item" id="mobile-terminal-shortcut">
+                <i class="fas fa-terminal"></i>
+                <span>Terminal</span>
+            </div>
+            <div class="mobile-shortcut-item" id="mobile-files-shortcut">
+                <i class="fas fa-folder"></i>
+                <span>Files</span>
+            </div>
+            <div class="mobile-shortcut-item" id="mobile-nmap-shortcut">
+                <i class="fas fa-network-wired"></i>
+                <span>Nmap</span>
+            </div>
+            <div class="mobile-shortcut-item" id="mobile-metasploit-shortcut">
+                <i class="fas fa-bug"></i>
+                <span>Metasploit</span>
+            </div>
+            <div class="mobile-shortcut-item" id="mobile-aircrack-shortcut">
+                <i class="fas fa-wifi"></i>
+                <span>Aircrack</span>
+            </div>
+            <div class="mobile-shortcut-item" id="mobile-hydra-shortcut">
+                <i class="fas fa-key"></i>
+                <span>Hydra</span>
+            </div>
+            <div class="mobile-shortcuts-close" id="mobile-shortcuts-close">
+                <i class="fas fa-times"></i>
+            </div>
         </div>
-        <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-hover-feature u-image u-image-default u-image-1" src="images/myyoutubechannel1.png" data-image-width="1805" data-image-height="858" data-animation-name="customAnimationIn" data-animation-duration="500" data-animation-direction="" data-href="https://www.youtube.com/channel/UCp57_CawcriTTjfp-PVlFWQ" data-target="_blank">
-        <a href="https://www.youtube.com/channel/UCp57_CawcriTTjfp-PVlFWQ" class="u-border-1 u-custom u-hover-feature u-link u-text-black u-link-1" data-animation-name="" data-animation-duration="0" data-animation-direction="" target="_blank">Navigate to my Youtube Channel</a>
-      </div>
-      
-      
-    </section>
-    <section class="u-clearfix u-section-9" id="sec-01c8">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-align-center u-container-style u-group u-similar-fill u-group-1">
-          <div class="u-container-layout u-padding-12 u-valign-middle">
-            <h2 class="u-text u-text-1">My Library</h2>
-            <p class="u-text u-text-2"> These are some of the books and video courses I am currently completing or have already completed. I will constantly update this library!</p>
-          </div>
-        </div>
-        <div class="u-expanded-width u-layout-grid u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-2">
-                <img alt="" class="u-expanded-width u-file-link u-hover-feature u-image u-image-default u-image-1" data-image-width="814" data-image-height="1080" src="images/howlinuxworks-14.jpg" data-href="files/howlinuxworks.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-3">How Linux Works</h3>
-                <p class="u-text u-text-4"> I just enjoyed it from the start! I really recommend it for someone who wants to deeply understand how Linux works at a low level. It's a good starting point! Obviously, you should be familiar with all the basics of Operating Systems.</p>
-                <a href="https://www.amazon.it/How-Linux-Works-Superuser-Should/dp/1593275676" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-1" target="_blank">Read more</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-3">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-2" data-image-width="1600" data-image-height="1190" src="images/LearnPythonEthicalHackingFromScratch-15.jpg" data-href="files/LearnPythonEthicalHackingFromScratch.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-5">Learn Python &amp; Ethical Hacking From Scratch</h3>
-                <p class="u-text u-text-6"> This videocourse covers Python programming and ethical hacking for beginners, guiding you from basic concepts to writing practical hacking programs while also teaching general programming skills. By the end, you'll have the ability to create various applications using Python, all with hands-on examples and a focus on real-world hacking techniques.</p>
-                <a href="https://www.udemy.com/course/learn-python-and-ethical-hacking-from-scratch/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-2" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-4">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-3" data-image-width="1600" data-image-height="1190" src="images/LearnEthicalHackingFromScratch-16.jpg" data-href="files/LearnEthicalHackingFromScratch.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-7">Learn Ethical Hacking From Scratch</h3>
-                <p class="u-text u-text-8"> This Ethical Hacking videocourse is designed for beginners, teaching practical hacking techniques and security measures. It covers various hacking fields, including network hacking, gaining access, post-exploitation, and website hacking, providing hands-on skills and understanding of vulnerabilities and defenses.</p>
-                <a href="https://www.udemy.com/course/learn-ethical-hacking-from-scratch/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-3" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-5">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-4" data-image-width="1600" data-image-height="1190" src="images/NetworkHackingContinued-IntermediatetoAdvanced-17.jpg" data-href="files/NetworkHackingContinued-IntermediatetoAdvanced.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-9"> Network Hacking Continued - Intermediate to Advanced</h3>
-                <p class="u-text u-text-10"> This advanced network hacking videocourse is designed for those with prior knowledge in network hacking. It provides practical, in-depth training on pre-connection attacks, gaining access to various network configurations and encryptions, and post-connection attacks, all with a focus on understanding the theory and developing attack skills.</p>
-                <a href="https://www.udemy.com/course/network-hacking-continued-intermediate-to-advanced/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-4" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-5" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-6">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-5" data-image-width="1600" data-image-height="1190" src="images/WebsiteHackingPenetrationTestingBugBountyHunting-18.jpg" data-href="files/WebsiteHackingPenetrationTestingBugBountyHunting.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-11"> Website Hacking Penetration Testing &amp; Bug Bounty Hunting</h3>
-                <p class="u-text u-text-12"> This website penetration testing videocourse is designed for beginners, providing practical training in discovering and exploiting common web application vulnerabilities. Covering information gathering, vulnerability discovery, exploitation, and post-exploitation, it equips students to hack websites like professionals and secure them effectively.</p>
-                <a href="https://www.udemy.com/course/learn-website-hacking-penetration-testing-from-scratch/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-5" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-6" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-7">
-                <img alt="" class="u-expanded-width u-image u-image-default u-image-6" data-image-width="1089" data-image-height="1280" src="images/d160aa7f50b4f5a347959f2ada781fb4eb77aad4fcdc0a35cb99687cbf6e6a87cfd2184c22c20c5198a0b3e8b07504e3bfd1d7b23a4f722d972e24_1280.png">
-                <h3 class="u-text u-text-default u-text-13"> Complete Linux Training Course to Get Your Dream IT Job 2023</h3>
-                <p class="u-text u-text-14"> This Linux videocourse is ideal for beginners looking to start a career in Linux. Covering installation, configuration, administration, shell scripting, and more, it also includes resume and interview workshops, preparing students for Linux-related job opportunities and certifications.</p>
-                <a href="https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-6" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-7" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-8">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-7" data-image-width="1600" data-image-height="1190" src="images/HackerGame-SfidediHackingperAspirantiEthicalHacker-20.jpg" data-href="files/HackerGame-SfidediHackingperAspirantiEthicalHacker.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-15"> Hacker Game - Sfide di Hacking per Aspiranti Ethical Hacker (IT)</h3>
-                <p class="u-text u-text-16"> This CTF videocourse guides you step by step through hacking challenges, providing both theory and hands-on practice in gaining access to virtual Windows and Linux machines. It is suitable for anyone in the IT field, aspiring ethical hackers, or individuals interested in hacking with some prior knowledge.</p>
-                <a href="https://www.udemy.com/course/hacker-game-sfide-per-aspiranti-ethical-hacker/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-7" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-8" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <div class="u-container-layout u-similar-container u-container-layout-9">
-                <img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-8" data-image-width="1600" data-image-height="1190" src="images/MasteringDataStructuresAlgorithmsusingCandC-21.jpg" data-href="files/MasteringDataStructuresAlgorithmsusingCandC.jpg" data-target="_blank">
-                <h3 class="u-text u-text-default u-text-17"> Mastering Data Structures &amp; Algorithms using C and C++</h3>
-                <p class="u-text u-text-18"> This extensive videocourse thoroughly covers data structures, enhancing problem-solving skills through whiteboard explanations and practical coding, suitable for all levels.<br> I loved how the instructor explained even the most challenging topics in a simple and straightforward manner, using numerous examples.
-                </p>
-                <a href="https://www.udemy.com/course/datastructurescncpp/" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-8" target="_blank">Read More</a>
-              </div>
-            </div>
-	    <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-7" data-animation-name="customAnimationIn" data-animation-duration="1000">
-	      <div class="u-container-layout u-similar-container u-container-layout-8">
-		<img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-7" data-image-width="1600" data-image-height="1190" src="images/computernetworks.png" data-href="files/HackerGame-SfidediHackingperAspirantiEthicalHacker.jpg" data-target="_blank">
-		<h3 class="u-text u-text-default u-text-15"> Computer Networks 6th edition</h3>
-		<p class="u-text u-text-16"> "Computer Networks (6th Edition)" by Andrew Tanenbaum and David Wetherall provides a comprehensive introduction to networking concepts, protocols, and technologies. It covers both theoretical foundations and practical applications, with updated content on modern networking challenges.</p>
-		<a href="https://www.amazon.com/Computer-Networks-Global-Andrew-Tanenbaum/dp/1292374063" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-7" target="_blank">Read More</a>
-	      </div>
-	    </div>
-	    <div class="u-align-center u-border-2 u-border-custom-color-7 u-container-style u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-7" data-animation-name="customAnimationIn" data-animation-duration="1000">
-	      <div class="u-container-layout u-similar-container u-container-layout-8">
-		<img alt="" class="u-expanded-width u-file-link u-image u-image-default u-image-7" data-image-width="1600" data-image-height="1190" src="images/nmap.jpg" data-href="files/HackerGame-SfidediHackingperAspirantiEthicalHacker.jpg" data-target="_blank">
-		<h3 class="u-text u-text-default u-text-15"> NMAP Network Scanning</h3>
-		<p class="u-text u-text-16"> "Nmap Network Scanning" by Gordon "Fyodor" Lyon is a detailed guide to the Nmap security scanner, covering its use for network discovery, security auditing, and vulnerability detection. The book includes practical examples, advanced techniques, and insights from the tool's creator.</p>
-		<a href="https://www.amazon.it/NMap-Network-Scanning-Official-Discovery/dp/0979958717" class="u-border-hover-palette-2-base u-btn u-button-style u-custom-item u-none u-text-active-custom-color-2 u-text-custom-color-7 u-text-hover-custom-color-2 u-btn-7" target="_blank">Read More</a>
-	      </div>
-	    </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </section>
-    <style class="u-overlap-style">.u-overlap:not(.u-sticky-scroll) .u-header {
-transparency: 0 !important
-}</style>
-    
-  
-</body></html>
+    </div>
+    <!-- Landscape orientation overlay -->
+    <div class="landscape-overlay" style="display:none;">
+        Please rotate your device to portrait mode for the best experience.
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html> 
